@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
-import Info from "./info";
+import CV from "../../assets/Yash-Cv.pdf";
 
 const About = () => {
   return (
@@ -13,12 +12,16 @@ const About = () => {
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
-          <Info />
-
           <p className="about__description">
-            Frontend Developer, I create web pages with UI/UX interfaces
+            As a Front-End Developer, I possess an impressive arsenal of skills
+            in HTML, CSS JavaScript, React and SCSS. I excel in designing and
+            maintaining a responsive website that offers a smooth user
+            experience. My expertise lies in crafting and engaging interfaces
+            through writing clean and optimised code and utilising cutting-edge
+            development tools and techniques. I am also a team player who
+            thieves in collaborating with cross-functional teams to produce an
+            outstanding web application
           </p>
-
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
