@@ -146,6 +146,7 @@
 
 .home__description {
   max-width: initial;
+  margin-top: 2.5rem; /* Adjust the value as needed */
   margin-bottom: var(--mb-2-5);
 }
 

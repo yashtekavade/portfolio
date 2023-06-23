@@ -8,7 +8,7 @@ export const Data = () => {
         Yash Tekavade
         <img src={AboutImg} alt="" className="hi__img" />
       </h1>
-      <h3 className="home__subtitle">Front-end Developer</h3>
+      <h3 className="home__subtitle">Front-End Developer</h3>
       <p className="home_description">
         Building immersive digital experiences through code and design.
       </p>
