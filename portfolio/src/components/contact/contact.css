@@ -26,7 +26,14 @@
 
 .contact__info.grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.section__subtitle {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px; /* Adjust as needed */
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -45,15 +52,8 @@
   }
 }
 
-/* For medium devices */
-@media screen and (max-width: 576px) {
-  .contact__info {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media screen and (max-width: 350px) {
   .contact__info.grid {
-    width: 100%;
+    flex-wrap: wrap;
   }
 }

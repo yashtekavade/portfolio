@@ -6,7 +6,7 @@ const go = () => {
       <div className="contact__info grid">
         <div className="contact__box">
           <i class="uil uil-envelope-alt"></i>
-          <h4>Mail</h4>
+          <h6>Mail</h6>
         </div>
       </div>
       <span className="section__subtitle">yashtekavade@gmail.com</span>

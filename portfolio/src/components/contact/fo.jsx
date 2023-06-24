@@ -6,10 +6,10 @@ const fo = () => {
       <div className="contact__info grid">
         <div className="contact__box">
           <i className="uil uil-map-marker"></i>
-          <h4>Location</h4>
+          <h6>Location</h6>
         </div>
       </div>
-      <span className="section__subtitle">Pune,India</span>
+      <span className="section__subtitle outside-box">Pune, India</span>
     </div>
   );
 };
