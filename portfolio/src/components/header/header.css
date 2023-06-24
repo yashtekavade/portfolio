@@ -5,10 +5,11 @@
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--container-color);
+  height: 75px; /* Adjust the height value as per your requirement */
 }
 
 .nav {
-  height: calc(var(--header-height) +1.5rem);
+  height: calc(var(--header-height) + 1.5rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
