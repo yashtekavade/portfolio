@@ -1,4 +1,4 @@
-.about__container {
+.contact__container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
