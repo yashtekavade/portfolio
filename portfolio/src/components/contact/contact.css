@@ -16,6 +16,12 @@
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
+  width: 18%;
+  margin: 0 auto;
+}
+
+.contact__box i {
+  font-size: 1.3rem; /* Adjust the font size value to make the icons bigger */
 }
 
 /*=============== BREAKPOINTS ===============*/
